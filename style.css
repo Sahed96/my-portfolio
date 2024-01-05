@@ -1,0 +1,39 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.bl{
+    color: red;
+    font-size: 35px;
+    font-weight: 400;  
+
+}
+.bg{
+    color: green;
+    font-size: 35px;
+    font-weight: 400;
+}
+.btn{
+    background-color: rgb(134, 131, 239);
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: 800;
+    font-size: larger;
+    border: 0;
+}
+
+nav > ul{
+    display: flex;
+    align-items: center;
+
+}
+nav li{
+    list-style: none;
+    margin-right: 20px;
+}
